@@ -1,0 +1,79 @@
+<! Doctype html>
+
+<html>
+
+<head>
+
+	<title>plant classifier</title>
+	
+	<style type = "text/css" >
+		h1 {text-align:center;background-image:url(yio.png);font-size:40;color:blue;]
+		
+	</style>
+
+</head>
+
+
+<body bgcolor = "orange" >
+    
+	
+	
+	<h1>ML SETOSA,VIRGINICA,VERSICOLOR CLASSIFIER</h1>
+	
+	
+	
+	
+	<br />
+	<hr />
+	<br />
+	<h2>a plant recognition system</h2>
+	<br />
+	<hr />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<div class = "login">
+	
+	<form action ="/predict" method = "post" >
+		
+		<h3>Enter values here</h3>
+		sepal_width:<input type = "text" name = "sepal_w">
+		sepal_height:<input type = "text" name = "sepal_h">
+		petal_width:<input type = "text" name = "petal_w">
+		petal_height:<input type = "text" name = "petal_h">
+
+		<button type = "reset" >clear</button>
+		<button type = "submit">submit</button>
+		
+		<h3>prediction</h3>
+		<hr />
+		<br />
+		<p>{{ prediction_text }} </p>
+		<br />
+		<hr />
+
+
+		</div>
+
+	
+
+
+
+
+
+
+	</form>
+	
+	</div>
+
+
+
+
+</body>
+
+
+</html>
